@@ -9,6 +9,7 @@ After that, open the .py file in something like VS Code, here you can configure 
 When you run it, open PFA and wait for it to finish.
 
 I recommend setting the file naming in ShareX to "%i{5}" so you can turn the frames into a video using FFmpeg.
+And disable play sound after capture is made, play sound after task is completed and show toast notification after task is completed so the frames look better
 
 # Configuring delay
 To change the delay, change the number in time.sleep(1) to whatever you want, you can make it something like 0.5, 0.2, 2, ect.
